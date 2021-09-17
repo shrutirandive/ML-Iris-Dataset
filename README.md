@@ -4,7 +4,7 @@
 
 Now the given problem is a classification problem.. Thus we will be using the classification algorithms to build a model.
 
-- **Classification**: samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data
+- **Classification**: samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data.
 
 - **Regression**: if the desired output consists of one or more continuous variables, then the task is called regression. An example of a regression problem would be the prediction of the length of a salmon as a function of its age and weight.
 
