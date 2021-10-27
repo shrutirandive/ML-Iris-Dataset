@@ -10,11 +10,17 @@ The iris dataset contains the following data:
 
 - **Regression**: if the desired output consists of one or more continuous variables, then the task is called regression. An example of a regression problem would be the prediction of the length of a salmon as a function of its age and weight.
 
-Before we start, we need to clear some ML notations:
+Before we start, we need to clear some ML terminologies:
 
-- **Attributes**-->An attribute is a property of an instance that may be used to determine its classification. In the following dataset, the attributes are the **petal and sepal length and width**. It is also known as **Features**.
+- **Each row is an observation (also known as: sample, example, instance, record)**
 
-- **Target variable**---> the variable that is or should be the output. Here the target variables are the **3 flower species**
+- **Each column is a feature (also known as: predictor, attribute, independent variable, input, regressor, covariate)**
+
+**Attributes**-->An attribute is a property of an instance that may be used to determine its classification. In the following dataset, the attributes are the **petal and sepal length and width**. It is also known as **Features**.
+
+- **Each value we are predicting is the response (also known as: target, outcome, label, dependent variable)**
+
+**Target variable**---> the variable that is or should be the output. Here the target variables are the **3 flower species**
 
 Now the given problem is a classification problem.. Thus we will be using the classification algorithms to build a model.
 
