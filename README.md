@@ -1,8 +1,10 @@
 # Machine Learning-Iris-Dataset
 
-![image](https://user-images.githubusercontent.com/54211989/128305741-7a56ac2b-64eb-4f52-91e7-e7feb5702e98.png)
+The iris dataset contains the following data:
+- 50 samples of 3 different species of iris (150 samples total)
+- Measurements: sepal length, sepal width, petal length, petal width
 
-Now the given problem is a classification problem.. Thus we will be using the classification algorithms to build a model.
+![image](https://user-images.githubusercontent.com/54211989/128305741-7a56ac2b-64eb-4f52-91e7-e7feb5702e98.png)
 
 - **Classification**: samples belong to two or more classes and we want to learn from already labeled data how to predict the class of unlabeled data.
 
@@ -10,9 +12,11 @@ Now the given problem is a classification problem.. Thus we will be using the cl
 
 Before we start, we need to clear some ML notations:
 
-- **Attributes**-->An attribute is a property of an instance that may be used to determine its classification. In the following dataset, the attributes are the petal and sepal length and width. It is also known as Features.
+- **Attributes**-->An attribute is a property of an instance that may be used to determine its classification. In the following dataset, the attributes are the **petal and sepal length and width**. It is also known as **Features**.
 
-- **Target variable**---> in the machine learning context is the variable that is or should be the output. Here the target variables are the 3 flower species.
+- **Target variable**---> the variable that is or should be the output. Here the target variables are the **3 flower species**
+
+Now the given problem is a classification problem.. Thus we will be using the classification algorithms to build a model.
 
 #### We will be predicting the classes of the flowers based on these parameters and the accuracy using various ML algorithms like:
 - Logistic regression
